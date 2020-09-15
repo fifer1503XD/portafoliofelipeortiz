@@ -210,6 +210,7 @@
     padding: 0%;
     display: flex;
     align-items: center;
+    border: solid 2px;
   }
   .photofifer {
      clip-path: ellipse(50% 50% at 50% 50%);
@@ -251,6 +252,6 @@
 #title-portafolio {
   color: #39ff14;
   }
-.acercade {
+.acercade{
   flex-direction: row-reverse;
 }
