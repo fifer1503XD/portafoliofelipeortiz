@@ -161,6 +161,7 @@
   }
   
   .main {
+    border: solid 2px gray ;
     margin-left: 90px;
     margin-right: 150px;
     display: flex;
@@ -223,7 +224,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
-    height: 80%;
+    height: 70%;
     margin-left: 5%;
     border: 0;
   }
@@ -242,12 +243,12 @@
   }
   .title-portafolio {
     display: flex;
-    justify-content: space-between 10px;
+    border: solid 2px grey;
     padding-left:20px;
     width: 90vw;
-    height: 20%;
+    height: 30%;
     border: 0;
-    margin-left: 5%;
+    margin-left: 7%;
   }
   .div-portafolio img:hover {
     border-radius:15px;
@@ -268,7 +269,6 @@
 }
 .title-portafolio button {
   padding: 10px;
-    position: relative;
     border: 0;
     padding: 15px 40px;
     font-weight: 500;
@@ -282,4 +282,7 @@
     z-index: 5;
     border: 1px solid #009E66;
     letter-spacing: 0.2px;
-}
+  }
+.col-flex {
+   display: flex;
+  } 

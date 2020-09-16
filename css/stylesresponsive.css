@@ -5,6 +5,10 @@
             margin: 0px;
             padding: 0px;
         }
+        body{
+            background-image: url(https://image.freepik.com/foto-gratis/escritorio-ordenado-aplicaciones-oficina_23-2147833239.jpg);
+            background-repeat: no-repeat;
+        }
         
         .basic {
             background: greenyellow;
