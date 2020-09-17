@@ -94,7 +94,7 @@
   
   nav .social-item .social-title::before {
     position: absolute;
-    content: "";
+    content:"";
     width: 100%;
     height: 1px;
     left: 0;
@@ -161,19 +161,21 @@
   }
   
   .main {
-    border: solid 2px gray ;
     margin-left: 90px;
     margin-right: 150px;
     display: flex;
     flex-wrap: wrap;
     width: 90vw;
     height: 100vh;
+    justify-items: center;
+    align-items: center;
+    box-sizing: border-box;
   }
   .content {
     border: 0px;
     width: 70%;
-    height: 100vh;
-    padding: 10%;
+    height: 90%;
+    padding: 9%;
     padding-right: 0px;
   }
   .banner {
@@ -208,23 +210,39 @@
   .photo {
     border: 0px;
     width: 30%;
-    height: 100vh;
+    height: 90%;
     padding: 0%;
     display: flex;
     align-items: center;
-    
-  }
+    }
+    .photoabout {
+      border: 0px;
+      width: 30%;
+      height: 60%;
+      padding: 0%;
+      display: flex;
+      align-items: center;
+      }
   .photofifer {
-     clip-path: ellipse(50% 50% at 50% 50%);
+    clip-path: ellipse(50% 50% at 50% 50%);
     border-radius: 40%; 
     width: 90%;
     border: solid 18px #009e66 ;
   }
+  .photoaboutme {
+    height: 109%;
+    clip-path: ellipse(50% 50% at 50% 50%);
+    /* border-radius: 54%; */
+    width: 62%;
+    border: solid 18px #009e66;
+    margin-left: 30%;
+    margin-top: 6%;
+  }
   .portafolio {
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
-    height: 70%;
+    width: 85%;
+    height: 73%;
     margin-left: 5%;
     border: 0;
   }
@@ -245,8 +263,8 @@
     display: flex;
     border: solid 2px grey;
     padding-left:20px;
-    width: 90vw;
-    height: 30%;
+    width: 90%;
+    height: 25%;
     border: 0;
     margin-left: 7%;
   }
@@ -256,7 +274,16 @@
     border:solid 15px #39ff14;  
   }
    .text-green {
-  color: #39ff14;
+  color: #009E66;
+  font-weight: 800;
+  }
+  .text-size35{
+    font-size: 35px;
+    font-weight: 800;
+  }
+  .text-size30{
+    font-size: 30px;
+    font-weight: 800;
   }
 .acercade{
   flex-direction: row-reverse;
@@ -264,9 +291,7 @@
 .content-acercade{
   padding-left: 0;
 }
-.photo-content {
-  padding-left: 150px;
-}
+
 .title-portafolio button {
   padding: 10px;
     border: 0;
@@ -286,3 +311,34 @@
 .col-flex {
    display: flex;
   } 
+  .about-me {
+    flex-direction: row-reverse;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 84%;
+    justify-content: center;
+    padding-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+  .btn-about{
+    padding: 15px;
+    margin-left: 40%;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  /* iconos aboutme*/
+  .icon-about {
+    color: black;
+    font-size: 45px;
+    margin-top: 1%;
+  }
+  .icon-about:hover {
+    transform:scale(1.1);transform:scale(1.1);
+  }
+  .photoaboutme:hover {
+    transform:scale(1.1);transform:scale(1.1);
+  }
+  
