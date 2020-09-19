@@ -161,11 +161,11 @@
   }
   
   .main {
+    /* margin-right: 150px; */
     margin-left: 90px;
-    margin-right: 150px;
     display: flex;
     flex-wrap: wrap;
-    width: 90vw;
+    width: calc(100vw-90px);
     height: 100vh;
     justify-items: center;
     align-items: center;
@@ -174,7 +174,7 @@
   .content {
     border: 0px;
     width: 100%;
-    padding: 9%;
+    padding: 8%;
     padding-right: 0px;
   }
   .banner {
@@ -215,7 +215,7 @@
     }
     .photoabout {
       border: 0px;
-      width: 30%;
+      width: 100%;
       height: 60%;
       padding: 0%;
       display: flex;
@@ -233,7 +233,6 @@
     /* border-radius: 54%; */
     width: 62%;
     border: solid 18px #009e66;
-    margin-left: 30%;
     margin-top: 6%;
   }
   .portafolio {
@@ -241,8 +240,9 @@
     flex-wrap: wrap;
     width: 100%;
     height: 73%;
-    margin-left: 5%;
+    margin-left: 11%;
     border: 0;
+
   }
   .div-portafolio {
       width: 100%;
@@ -255,18 +255,21 @@
         height: 100%;
         filter: grayscale(50%);
         overflow:hidden;
+        padding: 5%;
   }
   .title-portafolio {
     display: flex;
     border: solid 2px grey;
     padding-left:20px;
     width: 100%;
-    height: 20%;
+    height: 40%;
     border: 0;
     margin-left: 7%;
   }
   .btnes-portafolio{
+    height: 20%;
     width: 100%;
+    margin-left: 6%;
   }
   .div-portafolio img:hover {
     border-radius:15px;
@@ -311,10 +314,11 @@
 .col-flex {
    display: flex;
   } 
+  .margin-left7 {
+    margin-left: 16%;
+  }
   .about-me {
     flex-direction: row-reverse;
-    display: flex;
-    flex-wrap: wrap;
     width: 100%;
     height: 84%;
     justify-content: center;
