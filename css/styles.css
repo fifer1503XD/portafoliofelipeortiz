@@ -44,7 +44,6 @@
     font-size: 1.5rem;
     padding-top: 70px;
   }
-  
   a {
     color: black;
   }
@@ -128,21 +127,17 @@
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease;
   }
-  
   nav .social-item:hover ul {
     opacity: 1;
     visibility: visible;
   }
-  
   nav .social-item ul li {
     display: inline-block;
     margin-right: 10px;
   }
-  
   nav .social-item ul li:last-child {
     margin-right: 0px;
   }
-  
   nav .social-item ul li a {
     margin-top: 30px;
     display: inline-block;
@@ -155,11 +150,9 @@
     background: #ffffff;
     padding-left: 25px;
   }
-  
   nav .social-item ul li a:hover {
     color: #009e66;
   }
-  
   .main {
     /* margin-right: 150px; */
     margin-left: 90px;
@@ -212,15 +205,15 @@
     height: 50%;
     padding: 0%;
     display: flex;
-    }
+  }
     .photoabout {
-      border: 0px;
-      width: 100%;
-      height: 60%;
-      padding: 0%;
-      display: flex;
-      align-items: center;
-      }
+    border: 0px;
+    width: 100%;
+    height: 60%;
+    padding: 0%;
+    display: flex;
+    align-items: center;
+  }
   .photofifer {
     clip-path: ellipse(50% 50% at 50% 50%);
     border-radius: 40%; 
@@ -240,22 +233,21 @@
     flex-wrap: wrap;
     width: 100%;
     height: 73%;
-    margin-left: 11%;
+    margin-left: 5%;
     border: 0;
-
   }
   .div-portafolio {
-      width: 100%;
-      height: 50%;
-      padding: 2%;
-      border: 0;
+    width: 100%;
+    height: 50%;
+    padding: 2%;
+    border: 0;
   }
   .div-img-portafolio {
-        width: 100%;
-        height: 100%;
-        filter: grayscale(50%);
-        overflow:hidden;
-        padding: 5%;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(50%);
+    overflow:hidden;
+    padding: 5%;
   }
   .title-portafolio {
     display: flex;
@@ -264,7 +256,7 @@
     width: 100%;
     height: 40%;
     border: 0;
-    margin-left: 7%;
+    margin-left: 1%;
   }
   .btnes-portafolio{
     height: 20%;
@@ -277,8 +269,8 @@
     border:solid 15px #39ff14;  
   }
    .text-green {
-  color: #009E66;
-  font-weight: 800;
+    color: #009E66;
+    font-weight: 800;
   }
   .text-size35{
     font-size: 35px;
@@ -289,12 +281,11 @@
     font-weight: 800;
   }
 .acercade{
-  flex-direction: row-reverse;
-}
+    flex-direction: row-reverse;
+  }
 .content-acercade{
   padding-left: 0;
-}
-
+  }
 .title-portafolio button {
    padding: 10px;
     border: 0;
@@ -314,10 +305,13 @@
 .col-flex {
    display: flex;
   } 
-  .margin-left7 {
+.margin-left16 {
     margin-left: 16%;
   }
-  .about-me {
+.margin-left0 {
+    margin-left: 0%;
+  }
+.about-me {
     flex-direction: row-reverse;
     width: 100%;
     height: 84%;
@@ -325,14 +319,13 @@
     padding-top: 3%;
     margin-left: 10%;
     margin-right: 10%;
-}
+  }
   .btn-about{
     padding: 15px;
     margin-left: 40%;
     align-items: center;
     justify-items: center;
   }
-  
   /* iconos aboutme*/
   .icon-about {
     color: black;
@@ -346,11 +339,16 @@
     transform:scale(1.1);transform:scale(1.1);
   }
   .card { 
-    margin-left: 8%;
-    width: 40%;
-    height: 50%;
+    width: 100%;
+    height: 55%;
     padding: 5%;
     border: solid 3px #009e66;
-    background: #009e66;
+    background: white;
     border-radius: 50px;
+    text-align: center;
+    font-size: 24px;
+  }
+  .card:hover{
+    background: black;
+    color: #009e66;
   }
